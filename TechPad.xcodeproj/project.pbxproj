@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21DCC3561BC0CE4E0043778A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DCC3551BC0CE4E0043778A /* AppDelegate.swift */; };
+		21DCC3581BC0CE4E0043778A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DCC3571BC0CE4E0043778A /* ViewController.swift */; };
+		21DCC35B1BC0CE4E0043778A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21DCC3591BC0CE4E0043778A /* Main.storyboard */; };
+		21DCC35D1BC0CE4E0043778A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21DCC35C1BC0CE4E0043778A /* Images.xcassets */; };
+		21DCC3601BC0CE4E0043778A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21DCC35E1BC0CE4E0043778A /* LaunchScreen.xib */; };
+		21DCC36C1BC0CE4E0043778A /* TechPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DCC36B1BC0CE4E0043778A /* TechPadTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21DCC3661BC0CE4E0043778A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21DCC3481BC0CE4E0043778A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DCC34F1BC0CE4E0043778A;
+			remoteInfo = TechPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21DCC3501BC0CE4E0043778A /* TechPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DCC3541BC0CE4E0043778A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21DCC3551BC0CE4E0043778A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21DCC3571BC0CE4E0043778A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21DCC35A1BC0CE4E0043778A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21DCC35C1BC0CE4E0043778A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21DCC35F1BC0CE4E0043778A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		21DCC3651BC0CE4E0043778A /* TechPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DCC36A1BC0CE4E0043778A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21DCC36B1BC0CE4E0043778A /* TechPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechPadTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21DCC34D1BC0CE4E0043778A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DCC3621BC0CE4E0043778A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21DCC3471BC0CE4E0043778A = {
+			isa = PBXGroup;
+			children = (
+				21DCC3521BC0CE4E0043778A /* TechPad */,
+				21DCC3681BC0CE4E0043778A /* TechPadTests */,
+				21DCC3511BC0CE4E0043778A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21DCC3511BC0CE4E0043778A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21DCC3501BC0CE4E0043778A /* TechPad.app */,
+				21DCC3651BC0CE4E0043778A /* TechPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21DCC3521BC0CE4E0043778A /* TechPad */ = {
+			isa = PBXGroup;
+			children = (
+				21DCC3551BC0CE4E0043778A /* AppDelegate.swift */,
+				21DCC3571BC0CE4E0043778A /* ViewController.swift */,
+				21DCC3591BC0CE4E0043778A /* Main.storyboard */,
+				21DCC35C1BC0CE4E0043778A /* Images.xcassets */,
+				21DCC35E1BC0CE4E0043778A /* LaunchScreen.xib */,
+				21DCC3531BC0CE4E0043778A /* Supporting Files */,
+			);
+			path = TechPad;
+			sourceTree = "<group>";
+		};
+		21DCC3531BC0CE4E0043778A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21DCC3541BC0CE4E0043778A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21DCC3681BC0CE4E0043778A /* TechPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				21DCC36B1BC0CE4E0043778A /* TechPadTests.swift */,
+				21DCC3691BC0CE4E0043778A /* Supporting Files */,
+			);
+			path = TechPadTests;
+			sourceTree = "<group>";
+		};
+		21DCC3691BC0CE4E0043778A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21DCC36A1BC0CE4E0043778A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21DCC34F1BC0CE4E0043778A /* TechPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DCC36F1BC0CE4E0043778A /* Build configuration list for PBXNativeTarget "TechPad" */;
+			buildPhases = (
+				21DCC34C1BC0CE4E0043778A /* Sources */,
+				21DCC34D1BC0CE4E0043778A /* Frameworks */,
+				21DCC34E1BC0CE4E0043778A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechPad;
+			productName = TechPad;
+			productReference = 21DCC3501BC0CE4E0043778A /* TechPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21DCC3641BC0CE4E0043778A /* TechPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DCC3721BC0CE4E0043778A /* Build configuration list for PBXNativeTarget "TechPadTests" */;
+			buildPhases = (
+				21DCC3611BC0CE4E0043778A /* Sources */,
+				21DCC3621BC0CE4E0043778A /* Frameworks */,
+				21DCC3631BC0CE4E0043778A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21DCC3671BC0CE4E0043778A /* PBXTargetDependency */,
+			);
+			name = TechPadTests;
+			productName = TechPadTests;
+			productReference = 21DCC3651BC0CE4E0043778A /* TechPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21DCC3481BC0CE4E0043778A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "篠田弥樹";
+				TargetAttributes = {
+					21DCC34F1BC0CE4E0043778A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					21DCC3641BC0CE4E0043778A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 21DCC34F1BC0CE4E0043778A;
+					};
+				};
+			};
+			buildConfigurationList = 21DCC34B1BC0CE4E0043778A /* Build configuration list for PBXProject "TechPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21DCC3471BC0CE4E0043778A;
+			productRefGroup = 21DCC3511BC0CE4E0043778A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21DCC34F1BC0CE4E0043778A /* TechPad */,
+				21DCC3641BC0CE4E0043778A /* TechPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21DCC34E1BC0CE4E0043778A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DCC35B1BC0CE4E0043778A /* Main.storyboard in Resources */,
+				21DCC3601BC0CE4E0043778A /* LaunchScreen.xib in Resources */,
+				21DCC35D1BC0CE4E0043778A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DCC3631BC0CE4E0043778A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21DCC34C1BC0CE4E0043778A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DCC3581BC0CE4E0043778A /* ViewController.swift in Sources */,
+				21DCC3561BC0CE4E0043778A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DCC3611BC0CE4E0043778A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DCC36C1BC0CE4E0043778A /* TechPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21DCC3671BC0CE4E0043778A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21DCC34F1BC0CE4E0043778A /* TechPad */;
+			targetProxy = 21DCC3661BC0CE4E0043778A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21DCC3591BC0CE4E0043778A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21DCC35A1BC0CE4E0043778A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21DCC35E1BC0CE4E0043778A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21DCC35F1BC0CE4E0043778A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21DCC36D1BC0CE4E0043778A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21DCC36E1BC0CE4E0043778A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21DCC3701BC0CE4E0043778A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TechPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21DCC3711BC0CE4E0043778A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TechPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21DCC3731BC0CE4E0043778A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TechPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechPad.app/TechPad";
+			};
+			name = Debug;
+		};
+		21DCC3741BC0CE4E0043778A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TechPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechPad.app/TechPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21DCC34B1BC0CE4E0043778A /* Build configuration list for PBXProject "TechPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DCC36D1BC0CE4E0043778A /* Debug */,
+				21DCC36E1BC0CE4E0043778A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DCC36F1BC0CE4E0043778A /* Build configuration list for PBXNativeTarget "TechPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DCC3701BC0CE4E0043778A /* Debug */,
+				21DCC3711BC0CE4E0043778A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21DCC3721BC0CE4E0043778A /* Build configuration list for PBXNativeTarget "TechPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DCC3731BC0CE4E0043778A /* Debug */,
+				21DCC3741BC0CE4E0043778A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21DCC3481BC0CE4E0043778A /* Project object */;
+}
